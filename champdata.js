@@ -73,7 +73,7 @@ const collectChampData = async () => {
 
     if (!champs) return
 
-    return champs
+    return champs.data
 
 }
 
@@ -87,7 +87,7 @@ const collectOldChampData = async (version) => {
 
     if (!champs) return
 
-    return champs
+    return champs.data
 
 }
 
